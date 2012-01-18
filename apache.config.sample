@@ -1,0 +1,31 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	ServerName cf.local
+	DocumentRoot /Users/maddo/Projects/cf/web
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+		RewriteEngine On
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteRule ^(.*)$ app_dev.php [QSA,L]
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	<Directory /Users/maddo/Projects/cf/web>
+		Options FollowSymLinks
+		AllowOverride None
+		RewriteEngine On
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteRule ^(.*)$ app_dev.php [QSA,L]
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	ErrorLog /var/log/apache2/cf/error_log
+
+	LogLevel warn
+
+	CustomLog /var/log/apache2/cf/access_log combined
+
+</VirtualHost>
