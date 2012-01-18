@@ -1,0 +1,3 @@
+CodeNotionComicBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CodeNotionComicBundle:Default:index }
