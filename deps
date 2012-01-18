@@ -59,3 +59,25 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+
+[SonataAdminBundle]
+    git=http://github.com/sonata-project/SonataAdminBundle.git
+    target=/bundles/Sonata/AdminBundle
+
+[SonataDoctrineORMAdminBundle]
+    git=http://github.com/sonata-project/SonataDoctrineORMAdminBundle.git
+    target=/bundles/Sonata/DoctrineORMAdminBundle
+
+[SonataUserBundle]
+    git=http://github.com/sonata-project/SonataUserBundle.git
+    target=/bundles/Sonata/UserBundleA
+
+[KnpMenu]
+    git=https://github.com/KnpLabs/KnpMenu.git
+    target=/knp/menu
+
+[SonataMediaBundle]
+    git=https://github.com/sonata-project/SonataMediaBundle.git
+    target=/bundles/Sonata/MediaBundle
+
+
