@@ -1,3 +1,7 @@
+CNComicBundle:
+    resource: "@CNComicBundle/Resources/config/routing.yml"
+    prefix:   /
+
 CodeNotionComicBundle:
     resource: "@CodeNotionComicBundle/Resources/config/routing.yml"
     prefix:   /

@@ -1,0 +1,7 @@
+parameters:
+#    cn_comic.example.class: CN\ComicBundle\Example
+
+services:
+#    cn_comic.example:
+#        class: %cn_comic.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeNotion\ComicBundle\Tests\Controller;
+namespace CN\ComicBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

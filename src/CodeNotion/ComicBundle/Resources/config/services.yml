@@ -1,7 +1,0 @@
-parameters:
-#    code_notion_comic.example.class: CodeNotion\ComicBundle\Example
-
-services:
-#    code_notion_comic.example:
-#        class: %code_notion_comic.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
